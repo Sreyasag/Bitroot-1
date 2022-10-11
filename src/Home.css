@@ -1,0 +1,24 @@
+
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    gap:2rem;
+    margin: 15px;
+}
+
+@media screen and (max-width:600px) {
+    .list{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+}
